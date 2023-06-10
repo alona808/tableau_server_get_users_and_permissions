@@ -6,7 +6,6 @@ import logging as log
 import tableauserverclient as TSC
 
 
-
 def connect_to_server_site(server_url, token_name, token_value, site_name):
     """
     Function connects to Tableau server site and returns a Tableau server object
